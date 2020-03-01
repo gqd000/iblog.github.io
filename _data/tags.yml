@@ -11,9 +11,9 @@
 #     *My Tag* is an example of how to define a custom tag.
 # ~~~
 
-movie:
+read:
   name: 电影
-#  color: '#f44336'
+  color: '#f44336'
   description: >
     反映生活，却又高于生活，从电影中感悟生活、学会生活。
 
@@ -24,6 +24,6 @@ code:
     像建筑师、作曲家和画家一样，黑客们也在进行着富有创造性和挑战性的工作：他们将代码构筑成如今的互联网和计算机的世界。
 
 life:
-  name: 宇宙
+  name: 生活
   description: >
-    浩瀚宇宙，包容万物，万物之理，皆在其中。
+    生活如花，姹紫嫣红；生活如歌，美妙动听；生活如酒，芳香清醇；生活如诗，意境深远，绚丽多彩。
