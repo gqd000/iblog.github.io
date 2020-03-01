@@ -11,7 +11,7 @@
 #     *My Tag* is an example of how to define a custom tag.
 # ~~~
 
-read:
+movie:
   name: 电影
   color: '#f44336'
   description: >
