@@ -11,10 +11,10 @@
 #     *My Tag* is an example of how to define a custom tag.
 # ~~~
 
-life:
+movie:
   name: 电影
   color: '#f44336'
-  description: |
+  description: >
     反映生活，却又高于生活，从电影中感悟生活、学会生活。
 
 code:
