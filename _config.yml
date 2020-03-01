@@ -8,7 +8,7 @@ img_url:          https://infp.github.io/images
 # Set to '' in case of hosting on `https://<your-github-name>.github.io`
 baseurl:          ''
 
-title:            '一袖南烟顾'
+title:            '一袖南烟顾博客'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
