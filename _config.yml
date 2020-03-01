@@ -8,11 +8,11 @@ img_url:          https://infp.github.io/images
 # Set to '' in case of hosting on `https://<your-github-name>.github.io`
 baseurl:          ''
 
-title:            '饮冰先生'
+title:            '一袖南烟顾'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
-  关于[代码](/code/)、[生活](/life/)、[宇宙](/read/)和[一切](/)。
+  关于[代码](/code/)、[电影](/movie/)、[宇宙](/read/)和[一切](/)。
 
 
 # Google Analytics tracking ID
@@ -24,8 +24,8 @@ image:            /public/images/hedin.jpg
 color:            '#dc322f'
 
 author:
-  name:           '饮冰先生'
-  email:          yb.ma@outlook.com
+  name:           '一袖南烟顾'
+  email:          2826407926@qq.com
   github:         myanbin
   linkedin:       myanbin
   facebook:       myanbin
@@ -34,7 +34,7 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
-    我是饮冰先生，热爱电脑技术和黑客文化，喜欢与人交流分享开源思想和 IT 技术。如果你觉得本文不错，可略表心意，[请我喝一杯咖啡](https://myanbin.github.io/about.html#buymeacoffee)。
+    我是一袖南烟顾，热爱电脑技术，喜欢与人交流分享开源思想和 IT 技术（其实很菜）。如果你觉得本文不错，请多多支持。
 
 
 compress_html:
