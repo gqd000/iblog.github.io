@@ -2,7 +2,7 @@
 permalink:        /post/:title.html
 
 # Setup
-url:              https://myanbin.github.io
+url:              https://https://github.com/gqd000
 img_url:          https://infp.github.io/images
 
 # Set to '' in case of hosting on `https://<your-github-name>.github.io`
@@ -26,9 +26,9 @@ color:            '#dc322f'
 author:
   name:           '一袖南烟顾'
   email:          2826407926@qq.com
-  github:         myanbin
-  linkedin:       myanbin
-  facebook:       myanbin
+  github:         https://github.com/gqd000
+  linkedin:       https://github.com/gqd000
+  facebook:       https://github.com/gqd000
   photo:          /public/images/cat.jpg
 
 
