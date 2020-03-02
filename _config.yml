@@ -4,6 +4,8 @@ permalink:        /post/:title.html
 # Setup
 url:              https://github.com/gqd000
 img_url:          https://infp.github.io/images
+
+site:
 intensedebate_comments: true
 
 # Set to '' in case of hosting on `https://<your-github-name>.github.io`
