@@ -36,6 +36,21 @@ src="//music.163.com/outchain/player?type=2&id={{ page.music-id }}&auto=1&height
   {{content}}
 </article> 
 
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'gqd000',
+    repo: 'https://github.com/gqd000/iblog.github.io',
+    oauth: {
+        client_id: 'f7947b111995bad9e18e',
+        client_secret: '14801427fc30e489667e98e2f2631fbc8574ae03',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
+
 {% if site.author.about %}
 <aside class="author">
   <h2 class="aside-title">关于作者</h2>
