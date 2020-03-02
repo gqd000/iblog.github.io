@@ -29,7 +29,11 @@ layout: default
   </div>
   <hr class="post-divide">
   {{content}}
-</article>
+</article> 
+
+    {% if site.intensedebate_comments %}
+      {% include intensedebate-comments.html %}
+    {% endif %}
 
 {% if site.author.about %}
 <aside class="author">
