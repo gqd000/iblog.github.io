@@ -5,8 +5,11 @@ permalink:        /post/:title.html
 url:              https://www.blogspace.gq
 img_url:          https://infp.github.io/images
 
-site:
-intensedebate_comments: true
+valine_comment:
+    enable: true
+    leancloud_appid: zeRH0GG4bllparoqYJnC6X2b-gzGzoHsz
+    leancloud_appkey: IfblmRnOq8oaaA0wJ7YgMi8F
+    placeholder: "Just go go"
 
 # Set to '' in case of hosting on `https://<your-github-name>.github.io`
 baseurl:          ''
