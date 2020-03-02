@@ -36,19 +36,16 @@ src="//music.163.com/outchain/player?type=2&id={{ page.music-id }}&auto=1&height
   {{content}}
 </article> 
 
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://jjeejj.github.io/js/gitment.js"></script>
 <script>
-var gitment = new Gitment({
-    owner: 'gqd000',
-    repo: 'https://github.com/gqd000/iblog.github.io',
-    oauth: {
-        client_id: 'f7947b111995bad9e18e',
-        client_secret: '14801427fc30e489667e98e2f2631fbc8574ae03',
-    },
-});
-gitment.render('gitmentContainer');
+    var valine = new Valine();
+    valine.init({
+        el:'#comment',
+        appId:'zeRH0GG4bllparoqYJnC6X2b-gzGzoHsz',
+        appKey:'IfblmRnOq8oaaA0wJ7YgMi8F',
+        notify:true,
+        path: '{{ page.url }}',
+        placeholder:'在这里写评论——嘻嘻！'
+    })
 </script>
 
 {% if site.author.about %}
