@@ -36,17 +36,6 @@ src="//music.163.com/outchain/player?type=2&id={{ page.music-id }}&auto=1&height
   {{content}}
 </article> 
 
-<script>
-    var valine = new Valine();
-    valine.init({
-        el:'#comment',
-        appId:'zeRH0GG4bllparoqYJnC6X2b-gzGzoHsz',
-        appKey:'IfblmRnOq8oaaA0wJ7YgMi8F',
-        notify:true,
-        path: '{{ page.url }}',
-        placeholder:'在这里写评论——嘻嘻！'
-    })
-</script>
 
 {% if site.author.about %}
 <aside class="author">
