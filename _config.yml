@@ -5,11 +5,21 @@ permalink:        /post/:title.html
 url:              https://www.blogspace.gq
 img_url:          https://infp.github.io/images
 
-valine_comment:
-    enable: true
-    leancloud_appid: zeRH0GG4bllparoqYJnC6X2b-gzGzoHsz
-    leancloud_appkey: IfblmRnOq8oaaA0wJ7YgMi8F
-    placeholder: "Just go go"
+# Valine评论系统开关
+# Valine.
+# You can get your appid and appkey from https://leancloud.app
+# more info please open https://valine.js.org
+valine:
+  enable: true
+  appid:  zeRH0GG4bllparoqYJnC6X2b-gzGzoHsz # your leancloud app id
+  appkey: IfblmRnOq8oaaA0wJ7YgMi8F # your leancloud app key
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: true # Verification code
+  placeholder: 非Github帐号登录用户，在此处留言 # comment box placeholder
+  avatar:   # gravatar style
+  guest_info: 昵称,邮件,网址 # custom comment header
+  pageSize: 10 # pagination size
+  # path: window.location.pathname
 
 # Set to '' in case of hosting on `https://<your-github-name>.github.io`
 baseurl:          ''
