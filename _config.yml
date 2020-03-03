@@ -48,7 +48,7 @@ author:
 
 compress_html:
   clippings:      all
-
+  comment:      <--","-->
   endings:        all
   startings:      [html, head, body]
 
