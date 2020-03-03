@@ -8,6 +8,7 @@ layout: default
 {% if tag.description %}
   {% comment %}
     Adding the "message" class to the last (and usually only) paragraph of the description.
+    这是评论吗？
   {% endcomment %}
   {% capture desc %}{{tag.description}}{:.message}{% endcapture %}
   {{desc | markdownify}}
