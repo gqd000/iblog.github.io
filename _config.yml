@@ -9,7 +9,7 @@ img_url:          https://infp.github.io/images
 comment_gitalk_clientId: f7947b111995bad9e18e
 comment_gitalk_clientSecret: 14801427fc30e489667e98e2f2631fbc8574ae03
 comment_gitalk_repo: comments.github.io
-github_username: aerolithink
+github_username: gqd000
 
 # Set to '' in case of hosting on `https://<your-github-name>.github.io`
 baseurl:          ''
